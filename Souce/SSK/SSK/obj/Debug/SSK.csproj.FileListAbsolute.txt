@@ -1,0 +1,4 @@
+D:\SVN_MyProjects\trunk\Souce\SSK\SSK\SSK\bin\SSK.dll
+D:\SVN_MyProjects\trunk\Souce\SSK\SSK\SSK\bin\SSK.pdb
+D:\SVN_MyProjects\trunk\Souce\SSK\SSK\SSK\obj\Debug\SSK.dll
+D:\SVN_MyProjects\trunk\Souce\SSK\SSK\SSK\obj\Debug\SSK.pdb
