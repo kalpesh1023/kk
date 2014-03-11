@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Guest.master.cs" Inherits="SSK.SskPages.Master.Guest" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <%--<div id="divHeader" style="width:100%;">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <div style="width:80%;height:100%; margin-left:20%; margin-right:20%;">
+                <asp:Image  ID="ImgHeader" ImageUrl="~/Images/blue.png" runat="server" Width="75%" Height="20%"/>
+            </div>
+        </asp:ContentPlaceHolder>
+    </div>--%>
+        
+        <div>
+            <asp:ContentPlaceHolder ID="CP_Header" runat="server">        
+                <div>
+                    <div style="vertical-align:middle; width:100%">
+                        <div style="width: 15%; height:10%; float:left" >
+                            <%--  <asp:Image ID="Image2" runat="server" ImageUrl="~/images/FinalLogo.png" />--%>
+                        </div>
+                        <div style="width: 85%;vertical-align:middle;height:10%;">               
+                            <asp:Image ID="ImgHeader" runat="server" ImageUrl="~/Images/blue.png" Width="100%"/>
+                        </div>
+                            <%--<h1>
+                     <a href="/Default.aspx" 
+                         style="color: #0000FF; text-transform: capitalize; font-weight: normal;">YOUJOBSINDIA.COM</a></h1>--%>
+                    </div>
+                </div>
+                <br />
+            </asp:ContentPlaceHolder>
+            
+            <asp:ContentPlaceHolder ID="CP_banner" runat="server">
+
+            </asp:ContentPlaceHolder>
+        
+            <asp:ContentPlaceHolder ID="CP_Jobupdates" runat="server">
+      <div>
+        footer
+      </div>
+
+    </asp:ContentPlaceHolder>
+
+        <div></div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server">
+
+      
+    </asp:ContentPlaceHolder>
+    </div>
+
+    </form>
+</body>
+</html>
